@@ -38,7 +38,7 @@
 </p>
 
 <h2>💻 Utilização</h2>
-<p>Para realizar o curso, foi necessário baixar o Visual Studio Code, junto com extensões de JavaScript e <a style="text-decoration: none;"href="https://nodejs.org/en/about">Node.JS</a>. Foi também utilizado o navegador Google Chrome.</p> 
+<p>Para realizar o curso, foi necessário instalar o Visual Studio Code e o <a style="text-decoration: none;"href="https://nodejs.org/en/about">Node.JS</a>. Foi também utilizado o navegador Google Chrome.</p> 
 
 <h2>🔍 Contato</h2>
 <p>E-mail: anabeatrizscarmoni@gmail.com <br>
