@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            font: normal 10pt Arial;
+        }
+
+        input {
+            font: normal 10pt Arial;
+        }
+
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando porcentagem</h1>
+
+    Quanto é <input type="text"> % de <input type="number"> reais. 
+    <input type="button" value="Calcular" onclick="calcular()"><br>
+    <div id="res1">Resultado</div>
+    <br>
+    Tenho R$ <input type="number"> e quero saber quanto é <input type="number"> % desse valor.
+    <input type="button" value="Calcular" onclick="calcular()"> <br>
+    <div id="res2">Resultado</div>
+    <br>
+
+    Se R$ <input type="number"> reais corresponde a <input type="number"> % do valor total, quanto será <input type="number"> % desse valor? 
+    <input type="button" value="Calcular" onclick="calcular()"> <br>
+    <div id="res3">Resultado</div>
+    <br>
+
+    Se R$ <input type="number"> reais corresponde a <input type="number"> % do valor total, quanto será <input type="number"> reais em porcentagem desse valor? 
+    <input type="button" value="Calcular" onclick="calcular()"> <br>
+    <div id="res4">Resultado</div>
+    <br>
+
+    <p>
+        Digite o valor dado: <input type="number" name="txtn1" id="valor_tot"> <br>
+        Quantos % ele representa: <input type="number" name="txtn2" id="porc_valor"> <br>
+        Quantos % deseja <strong>descobrir</strong> do valor: <input type="number" name="txtn3" id="desc_porc_valor"> 
+    </p>
+
+
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function calcular() {
+            var vlr = window.document.getElementById('txtn1')
+
+            var pr = window.document.getElementById('txtn2')
+
+            var pd = window.document.getElementById('txtn3')
+
+            var res = window.document.getElementById('res')
+
+            /* ------- */
+
+            var valor = Number(vlr.value)
+
+            var porcentagem_representada = Number(pr.value)
+
+            var porcentagem_descobrir = Number(pd.value)
+
+            var calc_porcentagem = (valor * )
+
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}.`
+        }
+    </script>
+</body>
+</html>

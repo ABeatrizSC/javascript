@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM: Configuração direta no JavaScript</title>
+    <style>
+        div#area {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            background-color: blueviolet;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        Interaja...
+    </div>
+
+    <script>
+        var a = Window.document.getElementById('area') /* Variável fora das funções para poder ser utilizada em todas / escopo GLOBAL */
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar() { /* Ao clicar o texto de dentro da div será mudado para "clicou!" */
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'Entrou'
+        }
+
+        function sair() {
+            a.innerText = 'Saiu!'
+        }
+
+    </script>
+</body>
+</html>
