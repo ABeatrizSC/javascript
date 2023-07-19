@@ -37,6 +37,15 @@
   </ol>
 </p>
 
+<h2>🛠 Exercícios</h2>
+<p>Os exercícios feitos durante o curso para fixação do conteúdo estão em uma pasta separada a das aulas, e são divididos em exercicio 01 ao 04:</p>
+<ul>
+  <li><strong>Exercício 01:</strong> Criar um site em que a imagem, fundo e texto mudem a partir do horário em que a pessoa o acessa. Link para visualização do mini-projeto <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio01/">aqui</a>
+  <li><strong>Exercício 02:</strong> Em desenvolvimento.</li>
+  <li><strong>Exercício 03:</strong> Em desenvolvimento.</li>
+  <li><strong>Exercício 04:</strong> Em desenvolvimento.</li>
+</ul>
+
 <h2>💻 Utilização</h2>
 <p>Para realizar o curso, foi necessário instalar o Visual Studio Code e o <a style="text-decoration: none;"href="https://nodejs.org/en/about">Node.JS</a>. Foi também utilizado o navegador Google Chrome.</p> 
 
