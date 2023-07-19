@@ -20,22 +20,25 @@
 </head>
 <body>
     <h1>Somando Valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> +
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="somar" onclick="somar()">
-
+    <input type="number" name="input_1" id="input_1">
+    <input type="number" name="input_2" id="input_2">
+    <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
 
     <script>
         function somar() {
-            var tn1 = window.document.getElementById('txtn1')
-            var tn2 = window.document.querySelector('Input#txtn2')
+            var text_n1 = window.document.getElementById('input_1')
+            var text_n2 = window.document.getElementById('input_2')
             var res = window.document.getElementById('res')
-            var n1 = Number(tn1.value)
-            var n2 = Number(tn2.value)
-            var s = n1 + n2
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}.`
+
+            var n1 = Number(text_n1.value)
+            var n2 = Number(text_n2.value)
+
+            var soma = n1 + n2
+
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${soma}`
         }
+
     </script>
 </body>
 </html>
