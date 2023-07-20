@@ -5,20 +5,19 @@ function carregar() {
 
     var agora = new Date()
     var horario = agora.getHours()
+
+    frase.innerHTML = `Agora são ${horario} horas.`
     
     if (horario >= 5 && horario <=11) {
         titulo_hora.innerHTML = `Bom dia!` /* h1 */
-        frase.innerHTML = `Agora são ${horario} horas da manhã.` /* div id msgm */
         img.src = 'imagens/fotomanha.jpg'
         document.body.style.background = '#B46D40' /* div id imagem */
     } else if (horario >= 12 && horario <=18) {
         titulo_hora.innerHTML = `Boa tarde!`
-        frase.innerHTML = `Agora são ${horario} horas da tarde.`
         img.src = 'imagens/fototarde.jpg'
         document.body.style.background = '#321604'
     } else {
         titulo_hora.innerHTML = "Boa noite!"
-        frase.innerHTML = `Agora são ${horario} horas da noite.`
         img.src = 'imagens/fotonoite.jpg'
         document.body.style.background = '#010B0A'
     }
