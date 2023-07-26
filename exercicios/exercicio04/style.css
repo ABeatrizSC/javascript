@@ -17,7 +17,7 @@ header > h1 {
 section {
     background-color: white;
     width: 400px;
-    height: 300px;
+    height: auto;
     margin: auto;
     border-radius: 10px;
     box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.075);
@@ -26,6 +26,10 @@ section {
 
 section > div {
     padding: 10px;
+}
+
+#txtnum{
+    width: 70px;
 }
 
 footer {
