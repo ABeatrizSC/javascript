@@ -5,35 +5,37 @@
     padding: 0px;
 }
 body {
-    background-color: bisque;
+    background-color: darkslateblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header > h1 {
+    color: white;
     text-align: center;
     padding: 20px 0px;
 }
 
 section {
     background-color: white;
-    width: 400px;
+    width: 450px;
     height: auto;
     margin: auto;
     border-radius: 10px;
     box-shadow: 7px 7px 10px 10px rgba(0, 0, 0, 0.075);
-    text-align: center;
 }
 
 section > div {
     padding: 10px;
 }
 
-#txtnum{
-    width: 70px;
+select {
+    width: 150px;
+    margin: 10px 0px;
 }
 
+
 footer {
-    background-color: rgb(19, 2, 2);
+    background-color: black;
     text-align: center;
     padding: 10px 0px;
     position: fixed;
