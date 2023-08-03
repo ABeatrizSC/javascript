@@ -40,10 +40,11 @@
 <h2>🛠 Exercícios</h2>
 <p>Os exercícios feitos durante o curso para fixação do conteúdo estão em uma pasta separada a das aulas, e são divididos em exercicio 01 ao 04:</p>
 <ul>
-  <li><strong>Exercício 01:</strong> Criar um site em que a imagem, fundo e texto mudem a partir do horário em que a pessoa o acessa. Link para visualização do mini-projeto <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio01/">aqui</a>
-  <li><strong>Exercício 02:</strong> Verificador de idade. De acordo com o ano de nascimento e sexo digitado, surge uma imagem de uma pessoa que apresenta as caracteristicas passadas. Link para visualização do mini-projeto <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio02/">aqui</a></li>
-  <li><strong>Exercício 03:</strong> Em desenvolvimento.</li>
-  <li><strong>Exercício 04:</strong> Em desenvolvimento.</li>
+  <li><strong>Exercício 01:</strong> Criar um site em que a imagem, o fundo e o texto mudem a partir do horário em que a pessoa o acessa. Link para visualização do exercício <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio01/">aqui</a>.</li>
+  <li><strong>Exercício 02:</strong> Verificador de idade: De acordo com o ano de nascimento e sexo digitado, surge uma imagem de uma pessoa que apresenta as caracteristicas passadas. Link para visualização do exercício <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio02/">aqui</a>.</li>
+  <li><strong>Exercício 03:</strong> Contador: Exibe um contador partir do número de início, fim e passo digitado. Além disso, verifica se todos os campos foram preenchidos e desconsidera passo = 0. Link para visualização do exercício <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio03/">aqui</a>.</li>
+  <li><strong>Exercício 04:</strong> Tabuada: Exibe a tabuada do número inserido. Link para visualização do exercício <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio04/">aqui</a>.</li>
+    <li><strong>Exercício 05:</strong> Analisador de Números: Adiciona em um array o tanto de números de 0 a 100 que desejar. Após finalizar, exibe na tela um pequeno relatório de quantos números foram inseridos, qual o maior e menor valor, a soma de todos eles e sua média. Link para visualização do exercício <a style="text-decoration: none;" href="https://abeatrizsc.github.io/javascript/exercicios/exercicio05/">aqui</a>.</li>
 </ul>
 
 <h2>💻 Utilização</h2>
