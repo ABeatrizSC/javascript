@@ -2,7 +2,7 @@
 <h2>📌 Sobre</h2>
 <P>Repositório criado com o intuito de reunir todos os exercícios feitos a partir das aulas do curso de JavaScript do Curso em Vídeo.</P>
 <h2>📋 Conteúdos abordados</h2>
-<p>O Curso é composto por 1 módulo e tem o intuito de apresentar a linguagem. 
+<p>O Curso é composto por 1 módulo e tem o intuito de apresentar a linguagem e seus fundamentos. 
   <ol>
     <h3>Módulo A: Conhecendo o JavaScript</h3>
     <li>O que o JavaScript é capaz de fazer?
@@ -49,6 +49,7 @@
 
 <h2>💻 Utilização</h2>
 <p>Para realizar o curso, foi necessário instalar o Visual Studio Code e o <a style="text-decoration: none;"href="https://nodejs.org/en/about">Node.JS</a>. Foi também utilizado o navegador Google Chrome.</p> 
+<p>Tutorial utilizado: <a style="text-decoration: none;" href="https://youtu.be/FdePtO5JSd0">link</a>.</p>
 
 <h2>🔍 Contato</h2>
 <p>E-mail: anabeatrizscarmoni@gmail.com <br>
