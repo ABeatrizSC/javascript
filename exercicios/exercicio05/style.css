@@ -33,6 +33,9 @@ select {
     margin: 10px 0px;
 }
 
+p {
+    padding:5px 0px;
+}
 
 footer {
     background-color: black;
